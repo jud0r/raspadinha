@@ -1,0 +1,51 @@
+body {
+  font-family: Tahoma, Verdana, sans-serif;
+  background-color: rgba(255, 0, 93, 0.299);
+}
+
+.my-container {
+  padding: 24px 16px;
+  background-color: rgba(255, 0, 93, 0.299);
+  background-image: url('back-coracoes.png');
+}
+
+h2.my-heading {
+  padding: 8px 32px;
+  margin-top: 0;
+  margin-bottom: 42px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.scratch-container {
+  width: 250px;
+  height: 75px;
+  background-color: white;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.scratch-card {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+canvas {
+  position: absolute;
+  display: grid;
+}
+
+canvas:active {
+  cursor: pointer;
+}
